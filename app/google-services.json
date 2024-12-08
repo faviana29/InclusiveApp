@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308831588395",
+    "project_id": "inclusionplus-2cb1a",
+    "storage_bucket": "inclusionplus-2cb1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308831588395:android:b43345ef454f9966a91a6e",
+        "android_client_info": {
+          "package_name": "com.example.comunicacion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh93fzUNfsiCEhk4Kh5i7xrontoWoYCSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

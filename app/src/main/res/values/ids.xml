@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_hablar" type="id" />
+    <item name="text_transcripcion" type="id" />
+    <item name="input_texto" type="id" />
+    <item name="button_leer" type="id" />
+    <item name="emailInput" type="id" />
+    <item name="passwordInput" type="id" />
+    <item name="nameInput" type="id" />
+    <item name="birthdateInput" type="id" />
+    <item name="genderGroup" type="id" />
+    <item name="genderMale" type="id" />
+    <item name="genderFemale" type="id" />
+    <item name="emailRegisterButton" type="id" />
+</resources>

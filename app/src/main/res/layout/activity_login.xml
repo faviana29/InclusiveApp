@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Campo de Correo Electrónico -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo de Contraseña -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para Iniciar Sesión con Correo -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para Registrarse con Correo -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para Iniciar Sesión con Google -->
+        <Button
+            android:id="@+id/googleSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión con Google"
+            android:padding="12dp"
+            android:backgroundTint="@color/google_button_color"
+            android:layout_marginBottom="16dp" />
+        <!-- Enlace para restablecer la contraseña -->
+        <TextView
+            android:id="@+id/forgotPasswordText"
+            android:layout_width="167dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:text="¿Olvidó su contraseña?"
+            android:textColor="@android:color/holo_blue_dark" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
